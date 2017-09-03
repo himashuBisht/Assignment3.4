@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Registration for course</title>
+  <meta charset="UTF-8">
+  <style>
+  body {
+    background-image:url("image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:fill;
+    height: 100%; 
+     }
+  #submit{
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  </style>
+</head>
+<body>
+
+<form role="form">
+  <center>
+  <div style="color:white">
+    <label><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="name" maxlength="20" required enabled>
+    <br>
+    <label><b>Last Name</b></label>
+    <input type="text" placeholder="Enter last Name" name="name" maxlength="20" required enabled>
+    <br>
+    <label><b>BirthDate</b></label>
+    <input type="date"  name="dob" required>
+    <br>
+    <label><b>FFE ID</b></label>
+    <input type="text" name="Enter FFE UID" id="emailid" size="30" required>
+    <br>
+    <label><b>YEAR</b></label>
+    <input type="number" name="YEAR" id="cgpa" min="1" max="4" required>
+    <br>
+    
+
+    <p>By registering an account you agree to our Terms & Privacy</a>.</p>
+    <br>
+      <button type="submit" id="submit" class="submitbtn">SUBMIT</button>
+  </div>
+  </center>
+</form>
+
+
+</body>
+</html>
